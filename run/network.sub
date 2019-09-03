@@ -1,0 +1,13 @@
+universe = scheduler
+
+executable = network.py
+getenv = True
+
+output = network.out
+error = network.err
+log = network.log
+
+stream_output = True
+stream_error = True
+
+queue 1

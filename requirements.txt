@@ -1,0 +1,5 @@
+numpy
+matplotlib
+pandas
+git+https://github.com/JoshKarpel/htcondor-jobs.git
+git+https://github.com/JoshKarpel/condor-necropsy.git
