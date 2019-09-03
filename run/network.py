@@ -10,6 +10,8 @@ import htcondor_jobs as jobs
 prefix = sys.argv[1]
 num_tests_per_facility = int(sys.argv[2])
 
+# todo: ensure the prefix dir actually exists
+
 base_sub = jobs.SubmitDescription(
     # make sure that request_disk is large enough!
     transfer_input_files = 'file.txt',

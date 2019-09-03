@@ -1,6 +1,7 @@
 universe = scheduler
 
 executable = network.py
+arguments = data 100
 getenv = True
 
 output = network.out
