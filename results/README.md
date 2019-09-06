@@ -21,6 +21,23 @@ WID                     77.9  25.0  53.8  77.0   99.6  131.1
 
 ![submit-1](submit-1.png)
 
+## From `submit1` SSD Drive
+
+`submit-1` has an SSD drive attached to it, currently mounted directly to 
+`/var/lib/condor/spool`. These jobs were run with the test file in that directory.
+
+```
+transfer_input_rate
+                        mean   q05   q25    q50    q75    q95
+Facility
+CS_2360                 67.9  32.8  51.7   73.1   88.3   94.8
+CS_3370A                60.6  22.6  37.2   44.9   95.0  102.5
+CS_B240                 93.3  51.0  78.5  106.7  107.8  111.3
+WID                    124.3  36.0  78.6  105.0  111.6  365.7
+```
+
+![submit-1-ssd](submit-1-ssd.png)
+
 ## From `submit2`
 
 `submit-2` is physically located in WID.
